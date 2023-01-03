@@ -1,0 +1,46 @@
+.img-div {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5rem;
+  flex-wrap: wrap;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.App {
+  background-color: orange;
+}
+
+.input-div {
+  text-align: center;
+  padding: 3rem;
+  border: none;
+}
+
+.input-field {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 5px;
+  padding: 0 1rem;
+  border: none;
+}
+
+.search-btn {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #fff;
+  border: none;
+  margin-left: 0.2rem;
+}
+
+.recipe-name {
+  max-width: 15vw;
+}
